@@ -36,7 +36,7 @@ Due to requirements from Spotify API, users need to be added to a client whiteli
 *Alternatively,* you could simply follow the steps [here](#additional-note-if-not-approved), but for that you will need to also do the setup [for developers](#for-developers).
 
 ## Quickstart (Windows Users)
-1) Download the latest `.exe` from Releases.
+1) Download the latest `.exe` from [Releases](https://github.com/ammar797979/FavArtistsPlaylistMaker/releases/tag/v1.0).
 2) The following steps assume you have read [Authorization](#authorization).
 3) Run it; a browser opens for Spotify login/consent on first run (a `.cache` file appears beside the exe to skip future logins).
 4) In the GUI, enter:
