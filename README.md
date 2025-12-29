@@ -4,8 +4,7 @@ Make a Spotify playlist with **all** the songs tied to your favorite artists (ev
 
 
 ## Contents
--  [Problem Statement](#problem-statement)
--  [What This Does](#what-this-does)
+-  [What The App Does](#what-the-app-does)
 - [Authorization (Important)](#authorization)
 -  [Quickstart (Windows Users)](#quickstart-windows-users)
 - [Quickstart (Mac / Linux Users)](#quickstart-mac--linux-users)
@@ -18,12 +17,11 @@ Make a Spotify playlist with **all** the songs tied to your favorite artists (ev
 -  [License](#license)
 
 
-## Problem Statement
-You want a playlist with **everything** from an artist: songs they sang, wrote, produced, featured on, even the uncredited stuff hiding in credits. Doing that by hand is painful (duplicates, hidden tracks, similar names). This tool automates it.
+You want a playlist with **everything** from an artist: songs they sang, wrote, produced, featured on, where the artist is a background artist hiding in the credits, or is uncredited totally. Doing that by hand is painful (duplicates, hidden tracks, similar names). This tool automates it.
 (Note: I am currently working on a tool that makes a similar playlist with only the songs where the specified artist is one of the main artists)
 
 
-## What This Does
+## What The App Does
 Launch the app, fill in the GUI, and a few seconds/minutes later (depends on artists/song count) you get a Spotify playlist with all the tracks Genius can find for those artists. Duplicates are skipped by URI; non-primary/“background” credits are included.
 The duplicate removal logic helps if multiple artists are requested and they worked on the same songs.
 
