@@ -1,0 +1,32 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+temp_env/
+venv/
+env/
+
+# Distribution / Build files (PyInstaller)
+build/
+dist/
+*.spec
+
+# Local Runtime files
+*.log
+.cache
+.cache-*
+*.txt
+!requirements.txt
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# My own ignores
+!README.md
+*.md
